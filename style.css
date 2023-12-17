@@ -1,0 +1,130 @@
+.mainNav{
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background: url(images/pexels-nout-gons-248159.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(0, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+  
+}
+.logo{
+    padding-left: 20px;
+    color: #fdcc52;
+    transition: all .35s;
+    position: absolute;
+    
+
+
+}
+
+.nav{
+    margin: auto;
+    justify-content: center;
+}
+
+.nav a{
+    color: white;
+    border: 0px ;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+.jumbotron {
+    color: white;
+    font-size: xx-large;
+    text-align: left;
+    margin: 50px 0px;
+    max-width: 400px;
+}
+
+.welcome-page{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.device-container img{
+    margin: 50px;
+    height: 500px;
+    width: 300px;
+    
+}
+.lead .btn{
+    color: white;
+    border: 2px solid white ;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+a:hover, a:focus {
+    color: #fcbd20;
+  }
+
+  .btn:hover, .btn:focus {
+    color: #fcbd20;
+  }
+
+  .download{
+    height: 80vh ;
+    background-color: #fcbd20;
+    display: flex;
+    align-items: center;
+}
+.review{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card{
+    border: none;
+}
+
+.signup-section{
+    background: url(images/SF.png);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex{
+    width: 80vh;
+    margin: auto;
+}
+
+.d-flex .btn{
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+}
+
+.join{
+    color: white;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    font-style: oblique;
+    
+}
+
+
+@media only screen and (max-width: 400px){
+    .nav a{
+        visibility: hidden;
+
+    }
+}
+
